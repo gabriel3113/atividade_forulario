@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body background="img/corpo.jpg">
+
+    <h2 align="center"><font color="white">CADASTRO DE PERSONAGEM</font></h2>
+
+    <table border="0" align="right" bgcolor="black" >
+        
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><i><font color="white">INICIO DA SUA JORNADA</font></i></legend>
+                    
+                    <form action="heroi.html" method="" name="cadastro">
+                        <table align="left" border="0" cellpadding="5px" >
+                            <tr>
+                                <td ><label><font color="white">Nome de usuário</font> </label></td>
+                                <td><input type="text" id="usuario" name="usuario" size="25px" maxlength="30"
+                                        placeholder="Nome de usuario"></td>
+                            </tr>
+                            <tr>
+                                <td> <label> <font color="white">E-mail:</font> </label> </td>
+                                <td> <input type="email" id="mail" name="mail" placeholder="Digite seu e-mail" size="25"
+                                        required /> </td>
+                            </tr>
+                            <tr>
+                                <td> <label> <font color="white">Senha:</font> </label> </td>
+                                <td> <input type="password" id="senha" name="senha" placeholder="Digite aqui sua senha"
+                                        maxlength="35" size="25" required /> </td>
+                            </tr>
+                            <tr>
+                                <td> <label> <font color="white">Confirmar Senha:</font> </label> </td>
+                                <td> <input type="password" id="senha" name="senha" placeholder="confirme aqui sua senha"
+                                        maxlength="35" size="25" required /> </td>
+                            </tr>
+                            <tr>
+                                <td> <label> <font color="white">Telefone:</font> </label> </td>
+                                <td> <input type="tel" name="fone" id="fone" placeholder="Digite aqui seu telefone"
+                                        size="25" maxlength="11" /> </td>
+                            </tr>
+                            <tr>
+                                <td> <label> <font color="white">Data de nascimento:</font> </label> </td>
+                                <td> <input type="date" id="data_nasc" name="data_nasc" min="1900-01-01"
+                                        max="2004-07-01" required /> </td>
+                            </tr>
+                            <tr>
+                                <td><label> <font color="white">Sexo:</font> </label></td>
+                            <td>
+                                <label><input type="radio" id="sexo" name="sexo" value="M" required />
+                                    Masculino</label>
+                                <label><input type="radio" id="sexo" name="sexo" value="F" required />
+                                    Feminino</label>
+                            </td>
+                        </tr>
+                            
+                            <th colspan="2">
+                               <a href="heroi.html"> <input type="submit" id="enviar" name="enviar" value="ENVIAR"></a> 
+                                <input type="reset" id="limpar" name="enviar" value="LIMPAR">
+                            </th>
+                    </form>
+    </table>
+    </fieldset>
+    </td>
+    </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
